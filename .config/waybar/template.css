@@ -1,0 +1,5 @@
+@define-color bg0   @{background};
+@define-color bg1   @{on_secondary};
+@define-color tip   @{on_secondary};
+@define-color accent @{secondary};
+@define-color text @{primary};

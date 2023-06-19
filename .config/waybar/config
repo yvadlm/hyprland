@@ -1,0 +1,92 @@
+{
+  "layer": "top",
+  "position": "top", 
+  "height": 20,
+  "margin-top": 3,
+  "margin-right": 3,
+  "margin-left": 3,
+  
+  "modules-right": [
+    "pulseaudio",
+    "network",
+    "custom/wg",
+    "tray", 
+    "custom/power",
+  ],
+  "modules-center": [ 
+    "clock",
+  ],
+  "modules-left": [ 
+    "custom/menu",
+    "wlr/workspaces",
+      
+    ],
+
+  "wlr/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "on-click": "activate",
+    "format": "{icon}",
+    "format-icons": {
+      "1": "一",
+      "2": "二",
+      "3": "三",
+      "4": "四",
+      "5": "五",
+      "6": "六",
+      "7": "七",
+      "8": "八",
+      "9": "九",
+      "10": "十"
+    }
+  },
+  "tray": {
+    "icon-size": 13,
+    "spacing": 10 
+  },
+  "clock": {
+    "interval": 1,
+   "format": "{: %I:%M:%S %p   %d/%m}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+  "network": {
+    "interface": "wlan0",
+    "format-wifi": "  {essid}",
+    "format-ethernet": " {essid}",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "睊 Disconnected",
+    "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
+    "on-click": "kitty nmtui"
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": " Muted",
+    "scroll-step": 5,
+    "on-click": "pavucontrol",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", "", ""]
+    }
+  },
+  "custom/power": {
+    "format": " ",
+    "on-click": "~/.config/hypr/scripts/powermenu.sh"
+  },
+  "custom/menu": {
+    "format": "󰹯 ",
+    "on-click": "rofi -display-drun Search: -show drun  -disable-history -config ~/.config/hypr/rofi/config.rasi"
+  },
+  "custom/wg": {
+      "exec": "exec /home/yvadim/.config/waybar/modules/wgmod/check.sh",
+      "interval": 1,
+      "on-click": "kitty /home/yvadim/.config/waybar/modules/wgmod/turn.sh",
+      "width": 20,
+    }
+
+  }
+}

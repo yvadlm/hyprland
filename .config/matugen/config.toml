@@ -1,0 +1,21 @@
+[config]
+reload_apps = true 
+set_wallpaper = true
+wallpaper_tool = 'Swww'
+prefix = '@'
+reload_gtk_theme = false
+swww_options = [
+    "--transition-type",
+    "center",
+]
+feh_options = [
+    "--bg-tile",
+]
+run_after = [
+  [ "echo", "'hello'" ]
+]
+[templates]
+waybar = {input_path = '~/.config/waybar/template.css', output_path = '~/.config/waybar/colors.css'}
+hyprland = {input_path = '~/.config/hypr/template.conf', output_path = '~/.config/hypr/hyprland.conf'}
+rofi = {input_path = '~/.config/hypr/rofi/template.rasi', output_path = '~/.config/hypr/rofi/p-chy.rasi'}
+powermenu = {input_path = '~/.config/hypr/rofi/powermenu-template.rasi', output_path = '~/.config/hypr/rofi/powermenu.rasi'}

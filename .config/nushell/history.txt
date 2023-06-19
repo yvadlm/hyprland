@@ -1,0 +1,263 @@
+ls
+cd Documents/
+l
+ls
+git clone https://github.com/yvadlm/nast.git
+cd nast/
+ls
+mv ~/Downloads/test.conf ./
+ls
+git commit -m ''
+git config --global user.email "vyudytskiy@ya.ru"
+git config --global user.name "YVadim"
+git commit -m ''
+git add *
+git commit -m
+git commit -m ""
+git commit -m "1"
+git push
+cd ~/Downloads/
+ls
+wg-quick --help
+wg-quick up yvadim-home.conf
+ip a
+wg-quick down yvadim-home.conf
+nmtui
+mncli connection import type wireguard file yvadim-home.conf
+nmcli connection import type wireguard file yvadim-home.conf
+nmtui
+ip a
+nmtui
+ip a
+nmtui
+sudo nmcli connection import type wireguard file yvadim-home.conf
+nmtui
+ip a
+nmtui
+cd ..
+./.config/fish/.ufetch/artix.sh
+bash ./.config/fish/.ufetch/artix.sh
+matugen image Pictures/Wallpapers/wallpaper1.png
+nvim .config/hypr/template.conf
+l
+alias 
+alias l=ls
+alias --help
+alias l = l
+l
+alias l = ls
+alias l = l
+alias l = ls
+l
+cargo install exa
+exa
+./.cargo/bin/exa
+./.cargo/bin/exa -l
+rc-service sshd status
+sudo pacman -S openssh
+sudo pacman -S openssh-openrc
+rc-service sshd status
+sudo rc-service sshd start
+ip a
+ls
+exit
+ansi
+ansi --help
+sys
+sys | table
+sys
+pwd
+./.config
+starship init nu | save -f ~/.cache/starship/init.nu<\n>
+$nu.config_path
+$nu.config-path
+nvim $nu.config-path
+vim
+vim $nu.config-path
+ls
+sys
+./.config/fish/.ufetch/artix.sh
+bash ./.config/fish/.ufetch/artix.sh
+chsh
+chsh -l
+vim /etc/shells
+sudo vim /etc/shells
+chsh -l
+chsh
+nvim .config/hypr/template.conf
+yay -S hyprland-per-window-layout
+hyprland-per-window-layout 
+nvim .config/hypr/template.conf
+matugen
+./.cargo/bin/matugen
+./.cargo/bin/matugen image Pictures/Wallpapers/wallpaper1.png
+env
+env | get path
+env | get PATH
+nvim .config/nushell/config.nu
+$env.PATH
+matugen
+nvim .config/nushell/config.nu
+matugen 
+exa
+l
+ alias l = ls
+l
+sudo
+sudo l
+which wg-quick
+sudo l
+sudo wg-quick]
+sudo wg-quick
+sudo wg-quick up yvadim
+sudo wg-quick up yvadim-home
+sudo nvim /etc/sudoers
+sudo l
+sudo ls
+./Documents/
+ls
+./rust/
+cargo new wg
+wg
+./wg/
+ls
+cargo r
+cargo
+bash
+sh
+fish
+exit
+cargo
+./Documents/rust/wg
+cargo r
+nmtui
+cargo r
+sudo pacman -S rust-analyzer
+nvim .
+cargo r
+cd /tmp
+chmod +x aut.sh
+./aut.sh
+hyprctl --help
+hyprctl --help | table
+hyprctl exec
+hyprctl exec echo ""
+hyprctl dispatch exec kitty
+hyprctl dispatch exec kitty togglefloating
+hyprctl dispatch exec kitty, togglefloating
+hyprctl dispatch exec kitty && hyprct dispatch togglefloat
+hyprctl dispatch exec kitty ; hyprct dispatch togglefloat
+hyprctl dispatch exec kitty ; hyprct dispatch togglefloating
+hyprctl dispatch exec kitty ; hyprctl dispatch togglefloating
+hyprctl dispatch exec [float] kitty
+hyprctl dispatch exec [] kitty
+hyprctl dispatch exec [tile] kitty
+hyprctl dispatch exec [workspace 2] kitty
+hyprctl dispatch exec [float] kitty
+hyprctl dispatch exec [] kitty
+hyprctl dispatch exec [float,] kitty
+hyprctl dispatch float
+hyprctl dispatch togglefloating
+hyprctl dispatch togglefloating\
+hyprctl dispatch togglefloating
+hyprctl dispatch togglefloating active
+hyprctl --batch "dispatch exec kitty; dispatch togglefloating active"
+hyprctl --batch "dispatch exec kitty; dispatch togglefloating kitty"
+hyprctl dispatch exec [workspace 1 silent] firefox
+./aut.sh
+sudo --help
+./aut.sh
+ls
+./aut.sh
+sudo --help
+./aut.sh
+nvim .config/hypr/hyprland.conf
+wg-quick up yvadim-home
+wg-quick down yvadim-home
+wg-quick --help
+wg --help
+wg show
+sudo wg show
+sudo wg showconf
+ls /etc/wireguard/
+sudo ls /etc/wireguard/
+cp aut.sh ~/Documents/rust/wg/
+nvim aut.sh
+ip a
+ip a | grep yvadim-home
+nvim aut.sh
+cargo r
+nvim aut.sh
+cargo r
+grep --help
+grep y 'hellowy'
+grep y -a "hellowy"
+cd ..
+mkdir wgmod
+cd wgmod/
+chmod +x check.sh
+./check.sh
+wg-quick down yvadim-home
+./check.sh
+./turn.sh
+chmod +x turn.sh
+./turn.sh
+l
+ls
+ranger
+cp ../wg/aut.sh ./
+ls
+cp aut.sh on.sh
+mv aut.sh off.sh
+nvim .
+./on.sh
+nvim .
+rm off.sh
+cp on.sh off.sh
+nvim .
+./off.sh
+./turn.sh
+nvim .
+cd ~
+~
+./.config/waybar/
+pkill waybar
+waybar
+./.config/waybar/mod
+./.config/waybar/modules/wgmod/turn.sh
+./.config/waybar/modules/wgmod/
+nvim .
+./.config/waybar/modules/wgmod/turn.sh
+./turn.sh
+nvim .
+./turn.sh
+waybar
+nvim .
+wayabr
+waybar
+cd /tmp
+git clone https://github.com/MatMoul/g810-led.git
+cd g810-led/
+ls
+make lib
+ls
+sudo make install-lib
+ls lib
+make bin
+matugen image Pictures/Wallpapers/wallpaper8.jpg
+waybar
+matugen image Pictures/Wallpapers/wallpaper1.png
+ssh-keygen 
+ls
+mv github* .ssh/
+cargo install bat
+bat .ssh/github.pub
+cat .ssh/github.pub
+git clone git@github.com:yvadlm/hyprland.git
+nvim .ssh/config
+git clone git@github.com:yvadlm/hyprland.git
+rm -rf hyprland/
+cd Documents/
+git clone git@github.com:yvadlm/hyprland.git
+cd hyprland/
+ls
