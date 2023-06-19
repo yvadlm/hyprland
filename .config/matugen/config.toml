@@ -19,3 +19,4 @@ waybar = {input_path = '~/.config/waybar/template.css', output_path = '~/.config
 hyprland = {input_path = '~/.config/hypr/template.conf', output_path = '~/.config/hypr/hyprland.conf'}
 rofi = {input_path = '~/.config/hypr/rofi/template.rasi', output_path = '~/.config/hypr/rofi/p-chy.rasi'}
 powermenu = {input_path = '~/.config/hypr/rofi/powermenu-template.rasi', output_path = '~/.config/hypr/rofi/powermenu.rasi'}
+dunst = {input_path = '~/.config/dunst/template', output_path = '~/.config/dunst/dunstrc'}
